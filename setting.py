@@ -52,16 +52,17 @@ PROXY_FETCHER = [
     "freeProxy05",
     "freeProxy06",
     "freeProxy07",
-    "freeProxy08",
+    # "freeProxy08",
     "freeProxy09",
-    "freeProxy10"
+    "freeProxy10",
+    "freeProxy17"
 ]
 
 # ############# proxy validator #################
 # 代理验证目标网站
-HTTP_URL = "http://httpbin.org"
+HTTP_URL = "http://g.cn/generate_204"
 
-HTTPS_URL = "https://www.qq.com"
+HTTPS_URL = "https://g.cn/generate_204"
 
 # 代理验证时超时时间
 VERIFY_TIMEOUT = 10
